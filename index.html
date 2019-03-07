@@ -2,10 +2,18 @@
     <head>
         <title>spot light</title>
         <link rel="stylesheet" href="style.css">
+        <script language="javascript" type="text/javascript">
+                function autoPlay(){
+                   var myAuto = document.getElementById('myaudio');
+                   myAuto.play();
+                    }
+        </script>
     </head>
-    <body>
+    <body>	
+        <audio id="myaudio" src="lamei.mp3" controls="controls" loop="false" hidden="true" >
+       </audio>
         <canvas id="canvas"></canvas>
-        <button id="go">click</button>
+        <button id="go" onclick="autoPlay()">click</button>
     </body>
     <script src="shape.js"></script>
     <script src="spot.js"></script>
