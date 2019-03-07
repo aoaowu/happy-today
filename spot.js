@@ -18,8 +18,6 @@
         .then(() => engine.shake())
         .then(() => engine.toText('H'))
         .then(() => engine.shake())
-        .then(() => engine.toText('H'))
-        .then(() => engine.shake())
         .then(() => engine.toText('a'))
         .then(() => engine.shake())
         .then(() => engine.toText('p'))
